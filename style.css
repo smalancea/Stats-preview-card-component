@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  margin: 0;
+  font-size: 15px;
+  background-color: hsl(233, 47%, 7%);
+}
+
+h1 {
+  font-family: 'Inter', sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+img {
+  filter: opacity(0.8);
+  border-radius: 0 10px 10px 0;
+  filter: opacity(0.75);
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+  left: 0%;
+  right: 0%;
+}
+
+.left-container {
+  border-radius: 10px 0 0 10px;
+  background-color: hsl(244, 38%, 16%);
+  width: 380px;
+  padding: 60px 90px 0px 75px;
+}
+
+.main-paragraph {
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 170%;
+}
+
+.bottom-part {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Inter', sans-serif;
+  color: hsl(0, 0%, 100%);
+}
+
+.bottom-text {
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 13px;
+  font-family: 'Lexend Deca', sans-serif;
+}
